@@ -1,11 +1,7 @@
 package numbers
 
 func Mul(n1, n2 int) int {
-	out := 0
-	for i := 0; i < n1; i++ {
-		out = Add(out, n2)
-	}
-	return out
+	return n1 * n2
 }
 
 func Mul3(n1, n2, n3 int) int {
